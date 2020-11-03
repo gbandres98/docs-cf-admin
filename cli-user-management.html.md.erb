@@ -31,11 +31,11 @@ If the feature flag `set_roles_by_username` is enabled, Org Managers can [assign
   <tr>
     <td>Create a new user, specifying LDAP as an external identity provider</td>
     <td>cf create-user USERNAME --origin ORIGIN</td>
-    <td><code>cf create-user Aayah ldap</code></td>
+    <td><code>cf create-user Aayah --origin ldap</code></td>
   </tr>
     <td>Create a new user, specifying SAML or OpenID Connect as an external identity provider</td>
     <td>cf create-user USERNAME --origin ORIGIN</td>
-    <td><code>cf create-user Aiko provider-alias</code></td>
+    <td><code>cf create-user Aiko --origin provider-alias</code></td>
   </tr>
   <tr>
     <td>Delete a user</td>
